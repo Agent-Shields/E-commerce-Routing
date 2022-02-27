@@ -19,8 +19,14 @@ router.get('/', (req, res) => {
     ]
   })
   .then(dbPostData => {
-    const categories = dbPostData.map(category => category.get({plain : true}))
-    res.json(categories)
+    // const categories = dbPostData.map(category => category.get({plain : true}))
+    // res.json(categories)
+    res.json(dbPostData)
+    console.log(dbPostData)
+  })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err)
   })
 });
 
