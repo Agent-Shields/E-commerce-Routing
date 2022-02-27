@@ -5,7 +5,7 @@
 Build the back end for an e-commerce site using Express.js API and configure sequelize to interact with the MySQL database. Use MySQL2, Sequelize, dotenv npm packages and test routes using insomnia. 
 
 ## Walkthrough Video Link 
-<!-- Placeholder -->
+https://drive.google.com/file/d/1n8OoZ6Myr3yPh4BjFXPiFstAc3f8bbUz/view
 
 ## GitHub Repository Link
 https://github.com/Agent-Shields/E-commerce-Routing
